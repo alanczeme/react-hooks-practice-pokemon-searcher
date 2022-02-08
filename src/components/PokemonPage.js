@@ -22,7 +22,7 @@ function PokemonPage() {
     <Container>
       <h1>Pokemon Searcher</h1>
       <br />
-      <PokemonForm />
+      <PokemonForm pokemonData={pokemonData} setPokemonData={setPokemonData} />
       <br />
       <Search setSearchText={setSearchText} />
       <br />
